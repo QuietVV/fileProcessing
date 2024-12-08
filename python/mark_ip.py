@@ -96,14 +96,5 @@ if __name__ == "__main__":
         sys.exit(1)
     folder_path = sys.argv[1]
     traverse_files_and_folders(folder_path)
-	
-	想上传的内容：一个python脚本	
-实现的效果：对给定文件夹（包含子文件夹）中的word文件进行数据脱敏，对ip地址进行脱敏 ，如将1.1.1.1脱敏为1.*.*.1，并保持文件格式不变
-准备：
-pip install python-docx
-用法：
-请在命令行中指定要处理的文件夹路径，例如：python your_script.py /your/folder/path"
-说明：
-只适用于docx文件，其他类型的文件后续有空再研究
------
-请根据提供的信息，安装github的readme的标准模板写一份python的readme说明，用中文
+
+
